@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-sans: 'Inter', sans-serif;
+}
+
+button,
+a,
+[role="button"],
+[role="tab"],
+input[type="range"],
+select {
+  cursor: pointer;
+}
