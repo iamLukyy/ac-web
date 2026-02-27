@@ -22,12 +22,14 @@
     "@iconify-json/lucide": "^1.2.90",
     "@iconify-json/simple-icons": "^1.2.70",
     "@nuxt/ui": "^4.4.0",
+    "formidable": "^3.5.4",
     "js-yaml": "^4.1.1",
     "nuxt": "^4.3.1",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.15.1",
+    "@types/formidable": "^3.4.7",
     "@types/js-yaml": "^4.0.9",
     "eslint": "^10.0.0",
     "typescript": "^5.9.3",
