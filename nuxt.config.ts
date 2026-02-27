@@ -33,6 +33,10 @@ export default defineNuxtConfig({
   nitro: {
     experimental: {
       tasks: true
+    },
+    routeRules: {
+      '/api/cars/upload': { maxRequestBodySize: 524288000 },
+      '/api/tracks/upload': { maxRequestBodySize: 524288000 }
     }
   },
 
